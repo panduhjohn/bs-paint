@@ -40,3 +40,13 @@ But here are some (possibly new to you!) tools you can use:
 * `classList` and its [many awesome methods](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList#Methods). 4 out of 5 DOM manipulators recommend this tool.
 * Making `classList` an array using `Array.from()`, though while you gain array methods, you lose all of its native methods in the exchange.
 * `className`, which is actually a string with spaces separating the class names (if there are more than one). It is, in fact, in the exact same format as when you add classes in the html. If you want to make an array from this string instead of using the `Array.from()` method, converting a string of words to an array of words is easy enough!
+
+
+### Stretch Goals
+
+There are a lot of different directions you could take this project to stretch your developer wings. These don't all work together, and therefore are also not in any particular order. Do whatever sounds fun or challenging!
+
+* Add more colors. You may have to adjust the layout to continue to have the palette look reasonable.
+* Add a Dark Mode toggle that will change the general theme and also the colors to match.
+* Increase the number of squares on the canvas. You may have to adjust the size of the squares (or canvas). There is no real upper limit! I guess the number of pixels available to the user? Yeah, that.
+* Add an easter egg message to `.message` that activates when the user draws a particular pattern. Checking for a particular pattern can be difficult if you make too complex a one, so start with something simple and expand from there to as weird an easter egg as you can.
