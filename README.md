@@ -22,7 +22,7 @@ First, the HTML. We have three sections:
 
 We'll be checking the state of those three things as the user interacts with them. Pay attention to the logical flow of the app, and if you need to see Colin's version for logical flow reference, it's at [bs-paint.surge.sh](https://bs-paint.surge.sh).
 
-Did you notice how all those things have `.color-${n}` classes on them? That brings us to the CSS, which has none of those classes. You can pick your own colors and define them using those classes. You'll need at least four of them, and one for a blank color. (Unless you want to implement erasing another way, but... we'll get there!)
+Did you notice how all three sections listed above have `.color-${n}` classes on them or their elements? That brings us to the CSS, which has... none of those classes. You can pick your own colors and define them using those classes. You'll need at least four of them, and one for a blank color.
 
 Now on to the real meat of it: the JavaScript.
 
@@ -50,3 +50,7 @@ There are a lot of different directions you could take this project to stretch y
 * Add a Dark Mode toggle that will change the general theme and also the colors to match.
 * Increase the number of squares on the canvas. You may have to adjust the size of the squares (or canvas). There is no real upper limit! I guess the number of pixels available to the user? Yeah, that.
 * Add an easter egg message to `.message` that activates when the user draws a particular pattern. Checking for a particular pattern can be difficult if you make too complex a one, so start with something simple and expand from there to as weird an easter egg as you can.
+* Add some more tools besides a simple paintbrush. Here are some examples, but feel free to come up with your own ideas!
+  * A tool that colors a square and its neighbors.
+  * A tool that combines colors. For example, if the color is red and you paint it yellow with this tool, you get orange.
+  * A tool that allows you to select multiple squares for painting on all of them at once.
