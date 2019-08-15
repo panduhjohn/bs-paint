@@ -58,23 +58,3 @@
 .square {
   transition: 0.5s;
 }
-
-.blue {
-  background-color: lightblue;
-}
-
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: lightgreen;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.white {
-  background-color: white;
-}
