@@ -56,5 +56,21 @@
 }
 
 .square {
-  transition: 0.5s;
+  transition: 1.25s;
+}
+
+.color-1 {
+  background-color: rgb(231, 9, 194);
+}
+.color-2 {
+  background-color: rgb(12, 9, 172);
+}
+.color-3 {
+  background-color: rgb(255, 0, 0);
+}
+.color-4 {
+  background-color: rgb(153, 255, 0);
+}
+.color-5 {
+  background-color: rgb(255, 255, 255);
 }
